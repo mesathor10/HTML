@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center"><ins style="color: blue;">Student Registration Form Using Table in HTML</ins></h1><br>
+    <div align="center" style="background-color: rgb(181, 105, 239); border: 2px solid black;">
+<table  align="center">
+    <tr>
+        <td><label>First Name</label></td>
+        <td><input type="text" name="fname" value="" max="30" required/> (Max 30 Characters a-z ans A-Z)</td>
+    </tr>
+    <tr>
+        <td><label>Last Name</label></td>
+        <td><input type="text" name="lname" value="" max="30" required/> (Max 30 Characters a-z ans A-Z)</td>
+    </tr>
+    <tr>
+        <td><label>Date Of Birth (DOB)</label></td>
+        <td><input type="date" name="dob" value="" required/></td>
+    </tr>
+    <tr>
+        <td><label>Email ID</label></td>
+        <td><input type="email" name="email" value="" required/></td>
+    </tr>
+    <tr>
+        <td><label>Mobile No</label></td>
+        <td><input type="number" name="mobile_no" value="" max="10" required/> (10 Digits number)</td>
+    </tr>
+    <tr>
+        <td><label>Gender</label></td>
+        <td><input type="radio" name="gender" value="" />Male
+            <input type="radio" name="gender" value="" />Female</td>
+    </tr>
+    
+    <tr>
+        <td><label>Address</label></td>
+        <td><textarea name="address" id="" cols="30" rows="10" required></textarea><br></td>
+    </tr>
+    <tr>
+        <td><label>City</label></td>
+        <td><input type="text" name="fname" value="" max="30" required/> (Max 30 Characters a-z ans A-Z)</td>
+    </tr>
+    <tr>
+        <td><label>Pin Code</label></td>
+        <td><input type="number" name="fname" value="" max="6" required/> (Max 6 Numbers Allowed)</td>
+    </tr>
+    <tr>
+        <td><label>State</label></td>
+        <td><input type="text" name="fname" value="" max="50" required/> (Max 30 Characters a-z ans A-Z)</td>
+    </tr>
+    <tr>
+        <td><label>Country</label></td>
+        <td><input type="text" name="fname" value="" required/></td>
+    </tr>
+    <tr>
+        <td><label>Hobbies</label></td>
+        <td><input type="checkbox" name="hob" value=""/>Drawing
+            <input type="checkbox" name="hob" value=""/>Singing
+            <input type="checkbox" name="hob" value=""/>Dancing
+            <input type="checkbox" name="hob" value=""/>Sketching <br>
+            <input type="checkbox" name="hob" value=""/>Others
+            <input type="text" name="hob" value="" max="30"/>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Qualifications</label></td>
+        <td>
+            <table width="80%">
+                <tr>
+                    <th>SI.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" max="10"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" max="10"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" max="10"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" max="10"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Courses applied for</label></td>
+        <td>
+            <input type="radio" name="degree" value=""/>BCA(Bachelor of Computer Application)<br>
+            <input type="radio" name="degree" value=""/>B.Com(Bachelor of Commerce)<br>
+            <input type="radio" name="degree" value=""/>B.Sc(Bachelor of Science)<br>
+            <input type="radio" name="degree" value=""/>BA(Bachelor of Arts)<br>
+            <input type="radio" name="degree" value=""/>MCA(Masters of Computer Application)<br>
+            <input type="radio" name="degree" value=""/>M.Com(Masters of Commerce)<br>
+            <input type="radio" name="degree" value=""/>M.Sc(Masters of Science)<br>
+            <input type="radio" name="degree" value=""/>MA(Masters of Arts)
+        </td>
+    </tr>
+    
+    <tr align="center">
+        <td></td>
+        <td><button type="submit" name="submit" >Submit</button>
+            <button type="reset" >Rest</button>
+        </td>
+    </tr>
+</table>
+
+
+</div>
+</body>
+</html>
